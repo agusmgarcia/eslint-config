@@ -38,3 +38,19 @@ Create a `.eslintrc` file at the root of your project and extends from the insta
   "extends": ["@agusmgarcia/eslint-config/lib"]
 }
 ```
+
+## Run lint and format commands
+
+Add the following scripts in the `package.json` of your project.
+
+```jsonc
+{
+  "scripts": {
+    // other scripts ...
+    "lint": "agusmgarcia-lint",
+    "format:": "agusmgarcia-format"
+  }
+}
+```
+
+> You can run the scripts by executing `npm run lint` and/or `npm run format`.

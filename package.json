@@ -4,14 +4,25 @@
   "description": "Opinionated eslint configuration to be used among applications and libraries",
   "scripts": {
     "prepack": "cpy README.md .. --cwd=.github && cpy 'src/*.js' .. --cwd=src",
-    "postpack": "del README.md && del *.js"
+    "postpack": "del README.md && del *.js",
+    "lint": "node bin/lint.js",
+    "format": "node bin/format.js"
+  },
+  "bin": {
+    "agusmgarcia-lint": "bin/lint.js",
+    "agusmgarcia-format": "bin/format.js"
   },
   "peerDependencies": {
     "eslint": "^7.0.0",
     "eslint-config-next": "^12.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort": "^2.0.0",
-    "eslint-plugin-unused-imports": "^1.0.0"
+    "eslint-plugin-unused-imports": "^1.0.0",
+    "next": "^12.0.0",
+    "prettier": "^2.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typescript": "^4.0.0"
   },
   "devDependencies": {
     "cpy-cli": "4.1.0",
