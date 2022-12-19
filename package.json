@@ -1,0 +1,13 @@
+{
+  "name": "@agusmgarcia/eslint-config",
+  "version": "1.0.0",
+  "description": "Opinionated eslint configuration to be used among applications and libraries",
+  "scripts": {
+    "prepack": "cpy README.md .. --cwd=.github && cpy 'src/*.js' .. --cwd=src",
+    "postpack": "del README.md && del *.js"
+  },
+  "devDependencies": {
+    "cpy-cli": "4.1.0",
+    "del-cli": "5.0.0"
+  }
+}
