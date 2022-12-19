@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "description": "Opinionated eslint configuration to be used among applications and libraries",
   "scripts": {
-    "prepack": "cpy README.md .. --cwd=.github && cpy . .. --cwd=src",
-    "postpack": "del README.md && del *.js",
+    "prepack": "cpy README.md CHANGELOG.md .. --cwd=.github && cpy . .. --cwd=src",
+    "postpack": "del README.md CHANGELOG.md *.js",
     "lint": "node bin/lint.js",
     "format": "node bin/format.js"
   },
