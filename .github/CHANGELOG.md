@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.1](https://github.com/agusmgarcia/eslint-config/tree/v1.0.1)
+
+> 19 December 2022
+
+- add minor internal improvements
+- export lib config
+- export app config
+
 ## [v1.0.0](https://github.com/agusmgarcia/eslint-config/tree/v1.0.0)
 
 > 19 December 2022
