@@ -26,6 +26,12 @@
   },
   "devDependencies": {
     "cpy-cli": "4.1.0",
-    "del-cli": "5.0.0"
+    "del-cli": "5.0.0",
+    "husky": "4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format"
+    }
   }
 }
