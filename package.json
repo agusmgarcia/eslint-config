@@ -6,6 +6,13 @@
     "prepack": "cpy README.md .. --cwd=.github && cpy 'src/*.js' .. --cwd=src",
     "postpack": "del README.md && del *.js"
   },
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-next": "^12.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort": "^2.0.0",
+    "eslint-plugin-unused-imports": "^1.0.0"
+  },
   "devDependencies": {
     "cpy-cli": "4.1.0",
     "del-cli": "5.0.0"
