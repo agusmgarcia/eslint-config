@@ -1,0 +1,19 @@
+name: Continuous Integration & Deployment
+permissions: write-all
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  publish-lib:
+    name: Publish library
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-publish-lib
+      cancel-in-progress: true
+
+    steps:
+      - uses: agusmgarcia/github-actions/publish-lib@v1.0.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
