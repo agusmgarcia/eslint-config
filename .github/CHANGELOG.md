@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.2](https://github.com/agusmgarcia/eslint-config/tree/v1.0.2)
+
+> 19 December 2022
+
+- start packing `CHANGELOG.md` file
+
 ## [v1.0.1](https://github.com/agusmgarcia/eslint-config/tree/v1.0.1)
 
 > 19 December 2022
