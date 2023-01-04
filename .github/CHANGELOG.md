@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.3](https://github.com/agusmgarcia/eslint-config/tree/v1.0.3)
+
+> 3 January 2023
+
+- bump vulnearble dependency
+- start ignoring files
+
 ## [v1.0.2](https://github.com/agusmgarcia/eslint-config/tree/v1.0.2)
 
 > 19 December 2022
