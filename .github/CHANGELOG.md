@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.4](https://github.com/agusmgarcia/eslint-config/tree/v1.0.4)
+
+> 16 February 2023
+
+- update workflow
+
 ## [v1.0.3](https://github.com/agusmgarcia/eslint-config/tree/v1.0.3)
 
 > 3 January 2023
