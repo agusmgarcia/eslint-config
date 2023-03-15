@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.5](https://github.com/agusmgarcia/eslint-config/tree/v1.0.5)
+
+> 15 March 2023
+
+- add `.prettierignore` entry
+
 ## [v1.0.4](https://github.com/agusmgarcia/eslint-config/tree/v1.0.4)
 
 > 16 February 2023

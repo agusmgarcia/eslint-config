@@ -1,6 +1,6 @@
 {
   "name": "@agusmgarcia/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Opinionated eslint configuration to be used among applications and libraries",
   "scripts": {
     "prepack": "cpy README.md CHANGELOG.md .. --cwd=.github && cpy . .. --cwd=src",
